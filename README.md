@@ -5,13 +5,9 @@ An AI-powered email assistant that intelligently generates context-aware Gmail r
 🚀 Project Overview
 
 The SmartMail AI Assistant combines backend intelligence, a modern frontend interface, and a Gmail-integrated Chrome extension to enhance email productivity.
-
 The Spring Boot backend handles request processing and reply generation.
-
 Spring AI integrates with Google’s Gemini API to generate human-like, context-sensitive email responses.
-
 The React frontend offers a standalone interface for generating replies manually.
-
 The Chrome extension enables one-click insertion of AI-generated replies directly in Gmail.
 
 🔧 Technical Highlights
@@ -31,27 +27,19 @@ A Chrome Extension (Manifest v3) integrates directly with Gmail to inject AI-gen
 🧩 Tech Stack
 
 Backend:
-
 Spring Boot
-
 Java
 
 Spring AI (Google Gemini API)
-
 Frontend:
-
 React.js
-
 HTML, CSS, JavaScript
 
 Extension:
-
 Chrome Extension (Manifest v3)
 
 Communication:
-
 RESTful APIs
-
 JSON
 
 ⚙️ Setup Instructions
@@ -72,29 +60,18 @@ npm install
 npm start
 
 4. Chrome Extension Setup
-
 Open Chrome → Extensions → Manage Extensions → Load unpacked
-
 Select the chrome-extension folder from the project directory
 
 🎯 Features
-
 ✉️ Generates intelligent, context-aware email replies
-
-🤖 Integrates directly with Gmail for real-time suggestions
-
+🤖 Integrates directly with Gmail for real-time suggstions
 🧩 Modular architecture (Backend + Frontend + Extension)
-
 ⚡ Fast and seamless AI-driven email composition
 
-📷 Preview
-
-(Add screenshots or GIFs of your app and Chrome extension here)
 
 🧠 Future Enhancements
-
 Add user authentication for personalized responses
-
 Enable multiple email provider integration
 
 Improve UI/UX for reply customization
